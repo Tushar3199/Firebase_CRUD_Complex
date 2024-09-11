@@ -1,0 +1,17 @@
+input, textarea{
+    border: 1px solid rgb(193, 191, 191);
+    width: 220px;
+    height: 32px;
+    border-radius: 6px;
+    padding-left: 6px;
+}
+
+label{
+    font-weight: 600;
+    color: rgb(125, 13, 140);
+}
+
+form>div{
+    display: flex;
+    justify-content: space-between;
+}
