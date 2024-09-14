@@ -5,6 +5,8 @@ import Profiles from "./routes/Profiles"
 import Contact from "./routes/Contact"
 import SingleProfile from "./routes/SingleProfile"
 import Updater from "./routes/Updater"
+import RegisterSocial from "./routes/RegisterSocial"
+import SocialProfiles from "./routes/SocialProfiles"
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/profiles/:profileID" element={<SingleProfile />} />
           <Route path="/profiles/update/:updateID" element={<Updater />} />
+          <Route path="/regs" element={<RegisterSocial />} />
+          <Route path="/regprof" element={<SocialProfiles />} />
         </Routes>
       </BrowserRouter>
     </>
